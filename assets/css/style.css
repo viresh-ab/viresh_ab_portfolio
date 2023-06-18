@@ -983,3 +983,11 @@ section {
         padding-right: 20px 15px;
     }
 }
+@media only screen and (max-width: 600px) {
+ #hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/hero-bg-mob.jpg) top center;
+    background-size: cover;
+ }
+}
